@@ -7,6 +7,7 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 
+#[allow(dead_code)]
 pub fn fizz_buzz() {
     for i in 1..101 {
         if i % 3 == 0 && i % 5 == 0 {

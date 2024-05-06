@@ -13,13 +13,17 @@ mod easy {
 
 mod medium {
     pub mod c2_anagram;
+    pub mod c4_prime_number;
 }
 
 fn main() {
     // #1 EL FAMOSO "FIZZ BUZZ"
-    easy::c1_fizz_buzz::fizz_buzz();
+    // easy::c1_fizz_buzz::fizz_buzz();
 
     // #2 ¿ES UN ANAGRAMA?
-    println!("{}", medium::c2_anagram::is_anagram("hello", "world"));
-    println!("{}", medium::c2_anagram::is_anagram("cinema", "iceman"));
+    // println!("{}", medium::c2_anagram::is_anagram("hello", "world"));
+    // println!("{}", medium::c2_anagram::is_anagram("cinema", "iceman"));
+
+    // #3 ¿ES UN NÚMERO PRIMO?
+    medium::c4_prime_number::prime_number();
 }
