@@ -9,6 +9,7 @@
 
 mod easy {
     pub mod c1_fizz_buzz;
+    pub mod c5_polygon_area;
 }
 
 mod medium {
@@ -25,5 +26,12 @@ fn main() {
     // println!("{}", medium::c2_anagram::is_anagram("cinema", "iceman"));
 
     // #3 ¿ES UN NÚMERO PRIMO?
-    medium::c4_prime_number::prime_number();
+    // medium::c4_prime_number::prime_number();
+
+    // #4 ÁREA DE UN POLÍGONO
+    let triangle = easy::c5_polygon_area::Polygon::Triangle {
+        base: 5.0,
+        height: 10.0,
+    };
+    println!("{}", easy::c5_polygon_area::polygon_area(&triangle));
 }

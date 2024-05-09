@@ -8,4 +8,4 @@ These are some solutions of mine for the exercises you can find on [Retos de Pro
 - [x] 2. ¿ES UN ANAGRAMA?
 - [ ] 3. LA SUCESIÓN DE FIBONACCI
 - [x] 4. ¿ES UN NUMERO PRIMO?
-- [ ] 5. ÁREA DE UN POLÍGONO  
+- [x] 5. ÁREA DE UN POLÍGONO  

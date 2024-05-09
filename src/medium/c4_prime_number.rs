@@ -3,6 +3,7 @@
  * Hecho esto, imprime los números primos entre 1 y 100.
  */
 
+#[allow(dead_code)]
 pub fn prime_number() {
     for i in 2..101 {
         let mut dividers = 0;
