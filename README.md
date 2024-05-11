@@ -6,6 +6,6 @@ These are some solutions of mine for the exercises you can find on [Retos de Pro
 
 - [x] 1. EL FAMOSO "FIZZ BUZZ"
 - [x] 2. ¿ES UN ANAGRAMA?
-- [ ] 3. LA SUCESIÓN DE FIBONACCI
+- [x] 3. LA SUCESIÓN DE FIBONACCI
 - [x] 4. ¿ES UN NUMERO PRIMO?
 - [x] 5. ÁREA DE UN POLÍGONO  

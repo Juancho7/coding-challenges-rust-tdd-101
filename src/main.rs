@@ -17,6 +17,10 @@ mod medium {
     pub mod c4_prime_number;
 }
 
+mod hard {
+    pub mod c3_fibonacci;
+}
+
 fn main() {
     // #1 EL FAMOSO "FIZZ BUZZ"
     // easy::c1_fizz_buzz::fizz_buzz();
@@ -29,9 +33,12 @@ fn main() {
     // medium::c4_prime_number::prime_number();
 
     // #4 ÁREA DE UN POLÍGONO
-    let triangle = easy::c5_polygon_area::Polygon::Triangle {
-        base: 5.0,
-        height: 10.0,
-    };
-    println!("{}", easy::c5_polygon_area::polygon_area(&triangle));
+    // let triangle = easy::c5_polygon_area::Polygon::Triangle {
+    //     base: 5.0,
+    //     height: 10.0,
+    // };
+    // println!("{}", easy::c5_polygon_area::polygon_area(&triangle));
+
+    // #5 LA SUCESIÓN DE FIBONACCI
+    hard::c3_fibonacci::fibonacci();
 }
