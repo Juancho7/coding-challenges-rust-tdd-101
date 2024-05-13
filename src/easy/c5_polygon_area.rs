@@ -13,6 +13,7 @@ pub enum Polygon {
     Rectangle { width: f64, height: f64 },
 }
 
+#[allow(dead_code)]
 pub fn polygon_area(polygon: &Polygon) -> f64 {
     match polygon {
         Polygon::Triangle { base, height } => (base * height) / 2.0,

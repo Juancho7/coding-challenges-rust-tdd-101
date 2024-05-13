@@ -10,6 +10,7 @@
 mod easy {
     pub mod c1_fizz_buzz;
     pub mod c5_polygon_area;
+    pub mod c7_reversing_strings;
 }
 
 mod medium {
@@ -40,5 +41,8 @@ fn main() {
     // println!("{}", easy::c5_polygon_area::polygon_area(&triangle));
 
     // #5 LA SUCESIÓN DE FIBONACCI
-    hard::c3_fibonacci::fibonacci();
+    // hard::c3_fibonacci::fibonacci();
+
+    // #6 INVIRTIENDO CADENAS
+    println!("{}", easy::c7_reversing_strings::reverse_string("Hola mundo"));
 }

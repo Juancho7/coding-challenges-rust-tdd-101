@@ -6,6 +6,7 @@
  *   0, 1, 1, 2, 3, 5, 8, 13...
  */
 
+#[allow(dead_code)]
 pub fn fibonacci() {
     let mut n1 = 0;
     let mut n2 = 1;
