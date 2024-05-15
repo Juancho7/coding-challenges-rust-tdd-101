@@ -20,6 +20,7 @@ mod medium {
 
 mod hard {
     pub mod c3_fibonacci;
+    pub mod c6_aspect_ratio;
 }
 
 fn main() {
@@ -43,6 +44,9 @@ fn main() {
     // #5 LA SUCESIÓN DE FIBONACCI
     // hard::c3_fibonacci::fibonacci();
 
-    // #6 INVIRTIENDO CADENAS
-    println!("{}", easy::c7_reversing_strings::reverse_string("Hola mundo"));
+    // #6 ASPECT RATIO DE UNA IMAGEN
+    hard::c6_aspect_ratio::aspect_ratio();
+
+    // #7 INVIRTIENDO CADENAS
+    // println!("{}", easy::c7_reversing_strings::reverse_string("Hola mundo"));
 }

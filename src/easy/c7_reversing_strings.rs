@@ -4,6 +4,7 @@
  * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
  */
 
+#[allow(dead_code)]
 pub fn reverse_string(text: &str) -> String {
     let characters: Vec<char> = text.chars().collect();
 
@@ -11,12 +12,12 @@ pub fn reverse_string(text: &str) -> String {
 
     let mut reversed_characters: Vec<char> = Vec::with_capacity(length);
 
-    for i in (0..length).rev()  {
+    for i in (0..length).rev() {
         reversed_characters.push(characters[i]);
     }
 
-    let reversed_text:String = reversed_characters.iter().collect();
-    
+    let reversed_text: String = reversed_characters.iter().collect();
+
     reversed_text
 }
 
